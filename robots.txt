@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+Sitemap: https://blog.xuewen.me/sitemap.xml
+Sitemap: https://blog.xuewen.me/baidusitemap.xml

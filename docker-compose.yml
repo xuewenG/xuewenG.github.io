@@ -1,0 +1,15 @@
+version: "3.8"
+networks:
+  my-bridge:
+    external:
+      name: my-bridge
+services:
+  blog-xuewen-me:
+    build: .
+    image: ixuewen/blog-xuewen-me
+    container_name: blog-xuewen-me-docker
+    restart: always
+    networks:
+      - my-bridge
+    volumes:
+      - /etc/localtime:/etc/localtime:ro

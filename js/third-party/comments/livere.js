@@ -1,0 +1,1 @@
+"use strict";document.addEventListener("page:loaded",function(){CONFIG.page.comments&&NexT.utils.loadComments("#lv-container").then(function(){window.livereOptions={refer:CONFIG.page.path.replace(/index\.html$/,"")},"function"!=typeof LivereTower&&NexT.utils.getScript("https://cdn-city.livere.com/js/embed.dist.js",{attributes:{async:!0}})})});

@@ -1,0 +1,1 @@
+.footer-item+.footer-item::before{content:'|';margin:0 .5em}
